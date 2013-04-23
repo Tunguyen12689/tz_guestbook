@@ -18,6 +18,7 @@
 -------------------------------------------------------------------------*/
 
 defined("_JEXEC") or die;
+JHtml::_('behavior.keepalive');
 $document   =   JFactory::getDocument();
 $document   ->  addStyleSheet('components/com_tz_guestbook/css/baiviet2.css');
 $document   ->  addCustomTag('<script type="text/javascript" src="components/com_tz_guestbook/js/jquery.masonry.min.js"></script>');
